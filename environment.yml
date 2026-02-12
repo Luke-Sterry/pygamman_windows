@@ -1,0 +1,17 @@
+name: pygamman_windows_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - gfortran
+  - numpy
+  - matplotlib
+  - xarray
+  - gsw
+  - pandas
+  - scipy<1.12
+  - mixsea
+  - cmocean
+  - argopy
+  - seawater
+  - tenacity
